@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.title("🏡 Data Analyzers Through histogram Plot")
+st.title("🏡 Data Analyzer Through histogram Plot")
 
 uploaded_file = st.file_uploader("Upload your Housing CSV file", type=["csv"])
 column = st.text_input("Enter your column name for visualization")
